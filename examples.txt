@@ -1,0 +1,54 @@
+Examples
+--
+
+mkdir -p a/b/c/d/e
+find a | xargs ls -ld
+
+# Add the current date to the end of a file named foo
+mv foo foo_`date +%s`
+
+# In all subdirectories
+find . -name foo | xargs --replace mv {}_`date +%s`
+find . -name foo | xargs -I{} mv {} {}_`date +%s`
+
+--
+
+tail -f
+
+seq 10
+yes ' ' | nl | head -10
+jot -r 10
+
+ping -c 10 google.com
+ping google.com | head -2
+
+--
+
+du
+du *
+find . -type f | xargs du -k | sort -rn | head -10
+
+--
+
+echo "1 + 1" | bc
+echo "1 1 + p" | dc
+expr 1 + 1
+
+echo "2 ^ 100' | bc
+expr 1 + 1 | xargs printf '%04d'
+
+--
+
+seq 30 | cut -c 1
+seq 10 | paste - -
+
+--
+
+brew install coreutils
+brew install most
+
+man
+man bash
+man man
+apropos calculator
+
