@@ -29,8 +29,8 @@ when the disk's full
 when the RAM's gone
 when processes abort
 
-I remember dmesg, dk and du
-(which I may pipe to sort)
+I remember dmesg, df and du
+which I may pipe to sort
 
 --
 
@@ -45,7 +45,7 @@ extract them with strings
 
 these are a few of my favorite things
 
----
+--
 
 diff versus patch
 cut versus paste
