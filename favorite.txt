@@ -30,7 +30,7 @@ when the RAM's gone
 when processes abort
 
 I remember dmesg, df and du
-which I may pipe to sort
+which goes well with sort
 
 --
 
@@ -38,7 +38,7 @@ bc, dc, expr
 printf is there too
 
 locate and find
-will find files for you
+both find files for you
 
 wc counts words
 extract them with strings
