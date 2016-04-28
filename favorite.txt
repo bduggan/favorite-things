@@ -1,0 +1,72 @@
+
+cat, more, less, most
+and don't forget tac
+
+grep, egrep, ag and
+of course there is ack
+
+find piped to xargs
+is like backticks with wings
+
+these are a few of my favorite things
+
+--
+
+head is like tail
+nl is like seq
+
+yes is jot -by 0
+sort -u's like uniq
+
+The -c arg or head -2
+both will limit the pings
+
+these are a few of my favorite things
+
+--
+
+when the disk's full
+when the RAM's gone
+when processes abort
+
+I remember dmesg, dk and du
+(which I may pipe to sort)
+
+--
+
+bc, dc, expr
+printf is there too
+
+locate and find
+will find files for you
+
+wc counts words
+extract them with strings
+
+these are a few of my favorite things
+
+---
+
+diff versus patch
+cut versus paste
+
+comm and yes join
+make dbs seem a waste
+
+wget, curl, nc
+show what the web brings
+
+these are a few of my favorite things
+
+--
+
+when the mouse breaks
+when the upgrades fail
+when a high level language toolchain makes you sad
+
+I Read The Fine Man pages
+with apropos or man -k
+
+And then I don't feel
+so bad
+
